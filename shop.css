@@ -1,0 +1,108 @@
+ol,ul {
+	list-style: none;
+	text-align:center
+}
+
+.nav {
+	display:flex;
+	position: sticky;
+
+}
+
+.topnav {
+    background-color: rgb(254, 220, 220);
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: #414040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+	font-weight: bold;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #ef7394;
+    color: white;
+	
+  }
+  
+ .a {
+	color: #414040;
+ }
+  .topnav a.active {
+    background-color: #ef7394;
+    color: white;
+  }
+
+body {
+   background-color: rgb(252, 252, 252);
+	font: arial
+	 
+}
+
+
+
+.checked {
+  color: orange;
+}
+
+.card {
+	width: 17vw;
+	border: 10px solid rgb(248, 219, 219);
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	box-shadow: 2.5vw 2vw 1.7vw rgba(244, 205, 205, 0.3);
+	font-size: 1.5vw;
+	width: 20vw;
+	height: auto;
+	font-size: 2em;
+	text-align: center;
+	padding: 6px;
+	margin: 0;
+	font-size: 2vw;
+	color: #414040;
+}
+
+
+  
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: 6rgba(255, 255, 255, 0.729);
+    font-size: 3vw;
+	color: #414040;
+
+	
+  }
+
+.profile-picture {
+	width: 59%
+}
+
+h2 {
+	margin-top: 10;
+	font-size: 2vw;
+	text-align: center;
+	color: #414040;
+	
+}
+
+
+.name {
+	font-size: 2em;
+	text-align: center;
+	padding: 6px;
+	margin: 0;
+	font-size: 2vw;
+	color: #414040;
+  }
+
+
+ 
